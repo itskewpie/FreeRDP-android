@@ -1,0 +1,2 @@
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-ar cr ../../../../libs/armeabi-v7a/rdpsnd.a  CMakeFiles/rdpsnd.dir/rdpsnd_main.c.o
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-ranlib ../../../../libs/armeabi-v7a/rdpsnd.a

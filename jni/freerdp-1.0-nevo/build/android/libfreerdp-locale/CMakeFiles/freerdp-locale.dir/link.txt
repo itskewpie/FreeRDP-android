@@ -1,0 +1,2 @@
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-ar cr ../../../libs/armeabi-v7a/libfreerdp-locale.a  CMakeFiles/freerdp-locale.dir/virtual_key_codes.c.o CMakeFiles/freerdp-locale.dir/keyboard_layout.c.o CMakeFiles/freerdp-locale.dir/keyboard.c.o CMakeFiles/freerdp-locale.dir/locale.c.o CMakeFiles/freerdp-locale.dir/timezone.c.o
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-ranlib ../../../libs/armeabi-v7a/libfreerdp-locale.a

@@ -1,0 +1,1 @@
+PLATFORM_SDK=/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk cmake -DWITH_IOS:BOOL=ON -DCMAKE_TOOLCHAIN_FILE=../../cmake/Toolchain-iOS-arm.cmake -Wdev -DCMAKE_BUILD_TYPE=Debug -DWITH_CUPS=OFF -DWITH_X11=OFF -DWITH_FFMPEG=OFF -DWITH_XKBFILE=OFF -DCMAKE_INSTALL_PREFIX=./bin ../..

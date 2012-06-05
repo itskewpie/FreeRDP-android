@@ -1,0 +1,156 @@
+The target system is: Linux - 1 - armv7-a
+The host system is: Linux - 2.6.32-5-amd64 - x86_64
+Performing C SOURCE FILE Test Wno-unused-result succeded with the following output:
+Change Dir: /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.o
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall  -DWno-unused-result -I/home/itskewpie/android/android-toolchain/sysroot/usr/include -I/home/itskewpie/android/android-toolchain/arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/armv7-a   -Wno-unused-result -o CMakeFiles/cmTryCompileExec.dir/src.c.o   -c /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: missing whitespace after the macro name
+Linking C executable bin/cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc   --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall  -DWno-unused-result  -Wl,--fix-cortex-a8 -Wl,--gc-sections -Wl,--no-undefined  -lstdc++ -lsupc++ -Wl,-z,nocopyreloc CMakeFiles/cmTryCompileExec.dir/src.c.o  -o bin/cmTryCompileExec -rdynamic -L/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/systemlibs/armeabi-v7a -L/home/itskewpie/android/android-toolchain/user/libs/armeabi-v7a 
+make[1]: Leaving directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test Wno-unused-but-set-variable succeded with the following output:
+Change Dir: /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.o
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result  -DWno-unused-but-set-variable -I/home/itskewpie/android/android-toolchain/sysroot/usr/include -I/home/itskewpie/android/android-toolchain/arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/armv7-a   -Wno-unused-but-set-variable -o CMakeFiles/cmTryCompileExec.dir/src.c.o   -c /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/src.c
+<command-line>: warning: missing whitespace after the macro name
+Linking C executable bin/cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc   --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result  -DWno-unused-but-set-variable  -Wl,--fix-cortex-a8 -Wl,--gc-sections -Wl,--no-undefined  -lstdc++ -lsupc++ -Wl,-z,nocopyreloc CMakeFiles/cmTryCompileExec.dir/src.c.o  -o bin/cmTryCompileExec -rdynamic -L/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/systemlibs/armeabi-v7a -L/home/itskewpie/android/android-toolchain/user/libs/armeabi-v7a 
+make[1]: Leaving directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result -Wno-unused-but-set-variable -O2 -fpic -ffunction-sections -funwind-tables -fno-exceptions -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 --sysroot=/opt/android-toolchain/sysroot   -I/home/itskewpie/android/android-toolchain/sysroot/usr/include -I/home/itskewpie/android/android-toolchain/arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/armv7-a   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o   -c /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable bin/cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc   --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result -Wno-unused-but-set-variable -O2 -fpic -ffunction-sections -funwind-tables -fno-exceptions -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 --sysroot=/opt/android-toolchain/sysroot    -Wl,--fix-cortex-a8 -Wl,--gc-sections -Wl,--no-undefined  -lstdc++ -lsupc++ -Wl,-z,nocopyreloc CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o  -o bin/cmTryCompileExec -rdynamic -L/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/systemlibs/armeabi-v7a -L/home/itskewpie/android/android-toolchain/user/libs/armeabi-v7a 
+make[1]: Leaving directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result -Wno-unused-but-set-variable -O2 -fpic -ffunction-sections -funwind-tables -fno-exceptions -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 --sysroot=/opt/android-toolchain/sysroot   -I/home/itskewpie/android/android-toolchain/sysroot/usr/include -I/home/itskewpie/android/android-toolchain/arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/armv7-a   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o   -c /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable bin/cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc   --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result -Wno-unused-but-set-variable -O2 -fpic -ffunction-sections -funwind-tables -fno-exceptions -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 --sysroot=/opt/android-toolchain/sysroot    -Wl,--fix-cortex-a8 -Wl,--gc-sections -Wl,--no-undefined  -lstdc++ -lsupc++ -Wl,-z,nocopyreloc CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o  -o bin/cmTryCompileExec -rdynamic -L/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/systemlibs/armeabi-v7a -L/home/itskewpie/android/android-toolchain/user/libs/armeabi-v7a 
+make[1]: Leaving directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+
+
+Determining if files limits.h exist passed with the following output:
+Change Dir: /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result -Wno-unused-but-set-variable -O2 -fpic -ffunction-sections -funwind-tables -fno-exceptions -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 --sysroot=/opt/android-toolchain/sysroot   -I/home/itskewpie/android/android-toolchain/sysroot/usr/include -I/home/itskewpie/android/android-toolchain/arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/armv7-a   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o   -c /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable bin/cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc   --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result -Wno-unused-but-set-variable -O2 -fpic -ffunction-sections -funwind-tables -fno-exceptions -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 --sysroot=/opt/android-toolchain/sysroot    -Wl,--fix-cortex-a8 -Wl,--gc-sections -Wl,--no-undefined  -lstdc++ -lsupc++ -Wl,-z,nocopyreloc CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o  -o bin/cmTryCompileExec -rdynamic -L/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/systemlibs/armeabi-v7a -L/home/itskewpie/android/android-toolchain/user/libs/armeabi-v7a 
+make[1]: Leaving directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result -Wno-unused-but-set-variable -O2 -fpic -ffunction-sections -funwind-tables -fno-exceptions -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 --sysroot=/opt/android-toolchain/sysroot   -I/home/itskewpie/android/android-toolchain/sysroot/usr/include -I/home/itskewpie/android/android-toolchain/arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/armv7-a   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o   -c /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable bin/cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc   --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result -Wno-unused-but-set-variable -O2 -fpic -ffunction-sections -funwind-tables -fno-exceptions -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 --sysroot=/opt/android-toolchain/sysroot    -Wl,--fix-cortex-a8 -Wl,--gc-sections -Wl,--no-undefined  -lstdc++ -lsupc++ -Wl,-z,nocopyreloc CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o  -o bin/cmTryCompileExec -rdynamic -L/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/systemlibs/armeabi-v7a -L/home/itskewpie/android/android-toolchain/user/libs/armeabi-v7a 
+make[1]: Leaving directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result -Wno-unused-but-set-variable -O2 -fpic -ffunction-sections -funwind-tables -fno-exceptions -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 --sysroot=/opt/android-toolchain/sysroot   -I/home/itskewpie/android/android-toolchain/sysroot/usr/include -I/home/itskewpie/android/android-toolchain/arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/armv7-a   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o   -c /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable bin/cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc   --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result -Wno-unused-but-set-variable -O2 -fpic -ffunction-sections -funwind-tables -fno-exceptions -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 --sysroot=/opt/android-toolchain/sysroot    -Wl,--fix-cortex-a8 -Wl,--gc-sections -Wl,--no-undefined  -lstdc++ -lsupc++ -Wl,-z,nocopyreloc CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o  -o bin/cmTryCompileExec -rdynamic -L/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/systemlibs/armeabi-v7a -L/home/itskewpie/android/android-toolchain/user/libs/armeabi-v7a 
+make[1]: Leaving directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result -Wno-unused-but-set-variable -O2 -fpic -ffunction-sections -funwind-tables -fno-exceptions -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 --sysroot=/opt/android-toolchain/sysroot   -I/home/itskewpie/android/android-toolchain/sysroot/usr/include -I/home/itskewpie/android/android-toolchain/arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/armv7-a   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o   -c /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable bin/cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc   --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result -Wno-unused-but-set-variable -O2 -fpic -ffunction-sections -funwind-tables -fno-exceptions -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 --sysroot=/opt/android-toolchain/sysroot    -Wl,--fix-cortex-a8 -Wl,--gc-sections -Wl,--no-undefined  -lstdc++ -lsupc++ -Wl,-z,nocopyreloc CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o  -o bin/cmTryCompileExec -rdynamic -L/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/systemlibs/armeabi-v7a -L/home/itskewpie/android/android-toolchain/user/libs/armeabi-v7a 
+make[1]: Leaving directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_TM_GMTOFF succeded with the following output:
+Change Dir: /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.o
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc  -DANDROID -D__ARM_ARCH_5__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__ --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result -Wno-unused-but-set-variable -O2 -fpic -ffunction-sections -funwind-tables -fno-exceptions -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 --sysroot=/opt/android-toolchain/sysroot  -DHAVE_TM_GMTOFF -I/home/itskewpie/android/android-toolchain/sysroot/usr/include -I/home/itskewpie/android/android-toolchain/arm-linux-androideabi/include/c++/4.4.3/arm-linux-androideabi/armv7-a   -o CMakeFiles/cmTryCompileExec.dir/src.c.o   -c /home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/src.c
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/src.c:7: warning: statement with no effect
+At top level:
+cc1: warning: unrecognized command line option "-Wno-unused-but-set-variable"
+cc1: warning: unrecognized command line option "-Wno-unused-result"
+Linking C executable bin/cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-gcc   --sysroot=/home/itskewpie/android/android-toolchain/sysroot -fsigned-char -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -fdata-sections -ffunction-sections -fPIC -Wno-psabi -fexceptions -Wall -Wno-unused-result -Wno-unused-but-set-variable -O2 -fpic -ffunction-sections -funwind-tables -fno-exceptions -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 --sysroot=/opt/android-toolchain/sysroot  -DHAVE_TM_GMTOFF  -Wl,--fix-cortex-a8 -Wl,--gc-sections -Wl,--no-undefined  -lstdc++ -lsupc++ -Wl,-z,nocopyreloc CMakeFiles/cmTryCompileExec.dir/src.c.o  -o bin/cmTryCompileExec -rdynamic -L/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp/systemlibs/armeabi-v7a -L/home/itskewpie/android/android-toolchain/user/libs/armeabi-v7a 
+make[1]: Leaving directory `/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+   struct tm* tmp;
+   tmp->tm_gmtoff;
+  return 0;
+}
+

@@ -1,0 +1,13 @@
+prefix=./bin
+exec_prefix=./bin
+libdir=./bin/lib
+includedir=./bin/include
+
+Name: FreeRDP
+Description: A free remote desktop protocol client
+URL: http://www.freerdp.com/
+Version: 1.0.1
+Requires: 
+Libs: -L${libdir} -lfreerdp-cache -lfreerdp-channels -lfreerdp-codec -lfreerdp-core -lfreerdp-crypto -lfreerdp-gdi -lfreerdp-locale -lfreerdp-rail -lfreerdp-sspi -lfreerdp-utils
+Cflags: -I${includedir}
+

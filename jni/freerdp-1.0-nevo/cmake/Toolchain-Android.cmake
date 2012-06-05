@@ -1,0 +1,11 @@
+set(CMAKE_SYSTEM_NAME Darwin)
+
+set(CMAKE_C_COMPILER "$ENV{NDK_TOOLCHAIN_ROOT}/bin/arm-linux-androideabi-gcc")
+set(CMAKE_LINKER "$ENV{NDK_TOOLCHAIN_ROOT}/bin/arm-linux-androideabi-ld $ENV{NDK_TOOLCHAIN_ROOT}/sysroot/usr/lib/crtbegin_dynamic.o")
+
+set(CMAKE_FIND_ROOT_PATH "$ENV{NDK_TOOLCHAIN_ROOT}/sysroot" "${CMAKE_SOURCE_DIR}/android-2.2-libs/openssl")
+
+set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+
+set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)

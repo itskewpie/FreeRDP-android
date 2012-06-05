@@ -1,0 +1,14 @@
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/channels/cliprdr/CMakeFiles/cliprdr.dir
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/libfreerdp-cache/CMakeFiles/freerdp-cache.dir
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/libfreerdp-channels/CMakeFiles/freerdp-channels.dir
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/libfreerdp-codec/CMakeFiles/freerdp-codec.dir
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/libfreerdp-core/CMakeFiles/freerdp-core.dir
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/libfreerdp-crypto/CMakeFiles/freerdp-crypto.dir
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/libfreerdp-gdi/CMakeFiles/freerdp-gdi.dir
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/libfreerdp-locale/CMakeFiles/freerdp-locale.dir
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/libfreerdp-rail/CMakeFiles/freerdp-rail.dir
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/libfreerdp-sspi/CMakeFiles/freerdp-sspi.dir
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/libfreerdp-utils/CMakeFiles/freerdp-utils.dir
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/client/Android/CMakeFiles/freerdp_android.dir
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/channels/rdpsnd/CMakeFiles/rdpsnd.dir
+/home/itskewpie/android/workspace/FreeRDP/jni/freerdp-1.0-nevo-public/build/android/channels/rdpsnd/alsa/CMakeFiles/rdpsnd_alsa.dir

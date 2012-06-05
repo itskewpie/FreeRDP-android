@@ -1,0 +1,2 @@
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-ar cr ../../../../libs/armeabi-v7a/cliprdr.a  CMakeFiles/cliprdr.dir/cliprdr_format.c.o CMakeFiles/cliprdr.dir/cliprdr_main.c.o
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-ranlib ../../../../libs/armeabi-v7a/cliprdr.a

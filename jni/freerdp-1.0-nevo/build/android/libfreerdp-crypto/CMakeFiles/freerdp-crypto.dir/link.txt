@@ -1,0 +1,2 @@
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-ar cr ../../../libs/armeabi-v7a/libfreerdp-crypto.a  CMakeFiles/freerdp-crypto.dir/er.c.o CMakeFiles/freerdp-crypto.dir/der.c.o CMakeFiles/freerdp-crypto.dir/ber.c.o CMakeFiles/freerdp-crypto.dir/per.c.o CMakeFiles/freerdp-crypto.dir/certificate.c.o CMakeFiles/freerdp-crypto.dir/crypto.c.o CMakeFiles/freerdp-crypto.dir/tls.c.o
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-ranlib ../../../libs/armeabi-v7a/libfreerdp-crypto.a

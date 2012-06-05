@@ -1,0 +1,2 @@
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-ar cr ../../../libs/armeabi-v7a/libfreerdp-channels.a  CMakeFiles/freerdp-channels.dir/libchannels.c.o CMakeFiles/freerdp-channels.dir/wtsvc.c.o
+/home/itskewpie/android/android-toolchain/bin/arm-linux-androideabi-ranlib ../../../libs/armeabi-v7a/libfreerdp-channels.a

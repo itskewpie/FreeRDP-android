@@ -1,0 +1,1 @@
+PLATFORM_SDK=/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk cmake -DWITH_IOS_SIM:BOOL=ON -DCMAKE_TOOLCHAIN_FILE=../../cmake/Toolchain-iOS-i386.cmake -Wdev -DCMAKE_BUILD_TYPE=Debug -DWITH_CUPS=OFF -DWITH_X11=OFF -DWITH_FFMPEG=OFF -DWITH_XKBFILE=OFF -DWITH_AUDIOQUEUE=ON -DCMAKE_INSTALL_PREFIX=./bin -DWITH_DEBUG_GDI=ON ../..

@@ -1,0 +1,11 @@
+prefix=/build/toolchain/mac32/openssl-0.9.8o-2.i386
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 0.9.8o
+Requires: 
+Libs: -L${libdir} -lcrypto 
+Cflags: -I${includedir} 
